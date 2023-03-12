@@ -1,0 +1,35 @@
+{
+  "name": "user-authentication-in-nodejs-api-creation",
+  "version": "1.0.0",
+  "description": "user-authentication-in-nodejs-api-creation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N-NeelPatel/user-authentication-in-nodejs-api-creation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N-NeelPatel/user-authentication-in-nodejs-api-creation/issues"
+  },
+  "homepage": "https://github.com/N-NeelPatel/user-authentication-in-nodejs-api-creation#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.21",
+    "supertest": "^6.3.3"
+  }
+}

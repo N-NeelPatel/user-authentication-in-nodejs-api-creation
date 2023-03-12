@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+            "id": "c6ae338e-db6e-49e9-9791-2f92769a5c91",
+            "name": "Jon",
+            "email": "jon@xyz.com",
+            "password": "$2b$10$CFZx8ESyTjGj.t1/Iny.lOUisTyFjHiVQDUHB/T45xIPv3YcUwUoO"
+        },
+        {
+            "id": "14c26ad4-3ccb-40bb-a2f8-119e51dadb6b",
+            "name": "jonny",
+            "email": "abc@xyz.com",
+            "password": "$2b$10$mAIEbwwitFRIT/TCCxPnNuf8FZPuyHWx2vSkjGs.VFKB7BjPj/Vw6"
+        }
+    ]
+}
