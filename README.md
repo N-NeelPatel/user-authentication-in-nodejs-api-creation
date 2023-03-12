@@ -14,6 +14,17 @@ The project includes following files.
 
 - `tests/notes.test.js`: This is a test files which uses jest framework to test the apis.
 
+JWT (JSON Web Token) authentication is a widely used technique for securing API endpoints. It works by creating a token that contains information about the user, such as their user ID and email address, and signing it with a secret key known only to the server.
+
+In this Node.js project, JWT is used to authenticate users during the signup and signin processes. When a user signs up or signs in, a token is generated for them and stored in a cookie on the client side. The cookie is sent with subsequent requests to the server, and the server can use the token to verify the identity of the user and grant access to protected endpoints.
+
+The project uses the jsonwebtoken library to generate and sign the tokens. The library allows us to specify a secret key that is used to sign the token, and to include custom data in the token payload. In this project, the token payload includes the user's ID, name, email, and password hash.
+
+When a user signs up or signs in, a token is generated and returned in the response body. The client-side code can then store the token in a cookie or local storage, and include it in subsequent requests to the server. The server-side code can verify the token by decoding it using the same secret key used to sign it, and then using the user's ID to look up the user in the database.
+
+In summary, JWT authentication is a secure and widely used technique for authenticating API users. It works by creating a token that contains information about the user, and signing it with a secret key. The server can then verify the token and use the information it contains to authenticate the user and grant access to protected endpoints.
+
+
 ## How to run
 
 ### To run server
