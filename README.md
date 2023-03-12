@@ -38,7 +38,6 @@ You can use postman to make post or get calls to test the apis and their working
 run `npm run test` to start the testing in jest. It will look through all the `.test.js` files in the project for tests. 
 
 ## API Documentation
-The following apis are available in this project.
 The following APIs are available in this project:
 
 ### Authentication
